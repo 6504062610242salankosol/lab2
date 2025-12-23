@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a, b, c, d;
+    int temp;
+
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+
+    while (a > b) {
+        temp = a; 
+        a = b; 
+        b = temp;
+    }
+
+    while (b > c) {
+        temp = b; 
+        b = c; 
+        c = temp;
+    }
+
+    while (c > d) {
+        temp = c; 
+        c = d; 
+        d = temp;
+    }
+
+    printf("%d", c);  
+
+    return 0;
+}

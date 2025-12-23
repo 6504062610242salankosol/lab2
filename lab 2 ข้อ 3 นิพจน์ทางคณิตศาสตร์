@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <math.h>   
+int main() {
+  
+    int i = 10, j = 3;
+    float x = 1.525, y = -0.008, z = 12.26;
+    char c = 'A'; 
+    char d = 'F'; 
+  
+    float result_1, result_2, result_3, result_4;
+    int result_5, result_6, result_7, result_8, result_9, result_10;
+
+    result_1 = (y - 2.0) * ((y + z) / j);
+    printf("%.6f\n", result_1);
+
+    result_2 = (float)(j % (i - j)) / z - x;
+    printf("%.6f\n", result_2);
+
+    result_3 = (((i / 3 - 1) + ((j - 1 * 6) % (i - 9))) * 3); 
+    printf("%.6f\n", result_3); 
+    
+    result_4 = -x + (y * (y + 4.0 * x * z)) / x;
+    printf("%.6f\n", result_4);
+
+    result_5 = (c / d) * (-d);
+    printf("%d\n", result_5);
+
+    result_6 = !(c < 99);
+    printf("%d\n", result_6);
+    
+    result_7 = !(i * j < c);
+    printf("%d\n", result_7);
+
+    result_8 = (c == 97) && !(z >= 15);
+    printf("%d\n", result_8);
+
+    result_9 = (z / 2.0 - j < x) || (i - j != 0) || (c > d);
+    printf("%d\n", result_9);
+
+    result_10 = (j - i / j) > (d - c / d);
+    printf("%d\n", result_10);
+
+    return 0;
+}

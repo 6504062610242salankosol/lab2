@@ -1,0 +1,78 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+    int a41=0,b41=1,c41=5,d41=1;
+    int a42=9,b42=1,c42=0,d42=1;
+    int a43=0,b43=3,c43=3,d43=3;
+
+    float suma, sumb, sumc, sumd, sume;
+    float a, b, c, d;
+
+    // ---------------- Set 41 ----------------
+    a = a41;  b = b41;  c = c41;  d = d41;
+
+    suma = (3 * (a/5.0)) + (1.0 / b);
+    sumb = (3*a + 5*b) / (2.0 + c);
+    sumc = (2.0/7.0) * (pow(4, 3 + c) - 5*d);
+
+    if (a != 0)
+        sumd = sqrt((2 + 8*b) / a);
+    
+
+    sume = cbrt(b*b - 4*d);
+
+    printf("=== Set 41 ===\n");
+    printf("suma = %.3f\n", suma);
+    printf("sumb = %.3f\n", sumb);
+    printf("sumc = %.3f\n", sumc);
+    printf("sumd = %.3f\n", sumd);
+    printf("sume = %.3f\n\n", sume);
+
+
+
+    // ---------------- Set 42 ----------------
+    a = a42;  b = b42;  c = c42;  d = d42;
+
+    suma = (3 * (a/5.0)) + (1.0 / b);
+    sumb = (3*a + 5*b) / (2.0 + c);
+    sumc = (2.0/7.0) * (pow(4, 3 + c) - 5*d);
+
+    if (a != 0)
+        sumd = sqrt((2 + 8*b) / a);
+   
+
+    sume = cbrt(b*b - 4*d);
+
+    printf("=== Set 42 ===\n");
+    printf("suma = %.3f\n", suma);
+    printf("sumb = %.3f\n", sumb);
+    printf("sumc = %.3f\n", sumc);
+    printf("sumd = %.3f\n", sumd);
+    printf("sume = %.3f\n\n", sume);
+
+
+
+    // ---------------- Set 43 ----------------
+    a = a43;  b = b43;  c = c43;  d = d43;
+
+    suma = (3 * (a/5.0)) + (1.0 / b);
+    sumb = (3*a + 5*b) / (2.0 + c);
+    sumc = (2.0/7.0) * (pow(4, 3 + c) - 5*d);
+
+    if (a != 0)
+        sumd = sqrt((2 + 8*b) / a);
+    
+
+    sume = cbrt(b*b - 4*d);
+
+    printf("=== Set 43 ===\n");
+    printf("suma = %.3f\n", suma);
+    printf("sumb = %.3f\n", sumb);
+    printf("sumc = %.3f\n", sumc);
+    printf("sumd = %.3f\n", sumd);
+    printf("sume = %.3f\n", sume);
+
+    return 0;
+}
